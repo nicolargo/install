@@ -10,3 +10,7 @@ rtk init -g
 claude plugin install token-optimizer@alexgreensh-token-optimizer
 claude plugin install superpowers@claude-plugins-official
 
+# Snap
+snap install astral-uv
+snap install code
+
