@@ -7,6 +7,7 @@ curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/instal
 rtk init -g
 
 # Plugins
+claude plugin marketplace add alexgreensh/token-optimizer
 claude plugin install token-optimizer@alexgreensh-token-optimizer
 claude plugin install superpowers@claude-plugins-official
 
