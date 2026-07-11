@@ -3,7 +3,7 @@ font-family = JetBrains Mono
 font-size = 14  
   
 # Theme (hundreds built-in)  
-#theme = catppuccin-mocha  
+#theme = catppuccin-mocha.conf
   
 # Background transparency + blur  
 #background-opacity = 0.85  

@@ -1,3 +1,18 @@
+# Terminal
+snap install ghostty --classic
+mkdir -p ~/.config/ghostty/themes
+ln -s ~/dev/install/ghostty/config ~/.config/ghostty/config
+curl -o ~/.config/ghostty/themes/catppuccin-mocha.conf https://raw.githubusercontent.com/catppuccin/ghostty/refs/heads/main/themes/catppuccin-mocha.conf
+
+# Prompt
+mkdir -p ~/bin
+curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/bin
+
+# FzF
+mkdir -p ~/dev
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/dev/fzf
+~/dev/fzf/install --all
+
 # Claude
 curl -fsSL https://claude.ai/install.sh | bash
 
@@ -15,7 +30,6 @@ claude plugin install superpowers@claude-plugins-official
 snap install astral-uv
 snap install code
 
-# Terminal
-snap install ghostty --classic
-ln -s ~/dev/install/ghostty/config ~/.config/ghostty/config
+# Source bashrc
+source ~/.bashrc
 
