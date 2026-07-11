@@ -10,7 +10,11 @@ rtk init -g
 claude plugin install token-optimizer@alexgreensh-token-optimizer
 claude plugin install superpowers@claude-plugins-official
 
-# Snap
+# Code
 snap install astral-uv
 snap install code
+
+# Terminal
+snap install ghostty --classic
+ln -s ~/dev/install/ghostty/config ~/.config/ghostty/config
 

@@ -1,0 +1,21 @@
+# Font  
+font-family = JetBrains Mono  
+font-size = 14  
+  
+# Theme (hundreds built-in)  
+#theme = catppuccin-mocha  
+  
+# Background transparency + blur  
+#background-opacity = 0.85  
+#background-blur-radius = 20  
+  
+# Padding  
+window-padding-x = 10  
+window-padding-y = 10  
+  
+# Split layout persists when closing and reopening  
+window-save-state = always
+
+# Other  
+copy-on-select = clipboard  
+confirm-close-surface = false
