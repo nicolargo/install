@@ -7,6 +7,8 @@ curl -o ~/.config/ghostty/themes/catppuccin-mocha.conf https://raw.githubusercon
 # Prompt
 mkdir -p ~/bin
 curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/bin
+mkdir -p ~/.poshthemes
+curl -o ~/.poshthemes/blue-owl.omp.json https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/blue-owl.omp.json
 
 # FzF
 mkdir -p ~/dev
