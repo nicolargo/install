@@ -1,13 +1,20 @@
-# Font  
-font-family = JetBrains Mono  
-font-size = 14  
-  
 # Theme (hundreds built-in)  
-#theme = catppuccin-mocha.conf
+theme = catppuccin-mocha.conf
   
 # Background transparency + blur  
-#background-opacity = 0.85  
+background = 1e1e2e  
+foreground = cdd6f4
+#background-opacity = 0.95  
 #background-blur-radius = 20  
+
+# --- Selection Colors ---  
+selection-background = 585b70  
+selection-foreground = cdd6f4  
+
+# Font  
+font-family = "JetBrains Mono Nerd Font"
+font-size = 14  
+font-thicken = true
   
 # Padding  
 window-padding-x = 10  
