@@ -32,6 +32,8 @@ claude plugin install superpowers@claude-plugins-official
 snap install astral-uv
 snap install code
 
+# Tailscale
+curl -fsSL https://tailscale.com/install.sh | sh
+
 # Source bashrc
 source ~/.bashrc
-
