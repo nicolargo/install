@@ -13,7 +13,7 @@ selection-foreground = cdd6f4
 
 # Font  
 font-family = "JetBrains Mono Nerd Font"
-font-size = 14  
+font-size = 13  
 font-thicken = true
   
 # Padding  
